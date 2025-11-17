@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+
+.homepage_container{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+header{
+    position: fixed;
+    top: auto;
+}
+nav{
+    position: fixed;
+    top: auto;
+}
+
+.homepage_main{
+    display: flex;
+    
+}
+
+section{
+    height: 30rem;
+}
+
+section.welcome{
+    display: flex;
+    background-image: url("/img/welcome_secotion_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
