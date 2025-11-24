@@ -39,16 +39,16 @@ h2{
     font-size: 3rem;
 }
 
+footer{
+    background-color: black;
+}
 
 .homepage_container{
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto 40rem 40rem 40rem 40rem 10rem;
 }
 
 
-section{
-    height: 40rem;
-}
 
 section.welcome{
     display: flex;
@@ -67,3 +67,29 @@ section.odd{
 section.even{
     background-color: #db7734;
 }
+
+
+.inspiration_container{
+    display: grid;
+    grid-template-rows: auto auto 1000px;
+}
+
+.inspiration_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inspiration_card{
+    display: flex;
+    width: 350px;
+    height: 600px;
+    border-radius: 3rem;
+    background-color: #3498db;
+    margin: 10px;
+}
+
+
+
+
